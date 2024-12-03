@@ -1,0 +1,19 @@
+.heading{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Cursive','Fantasy','serif';
+    color: black;
+}
+img{
+    height:auto;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.des{
+    font-family: 'Fantasy','serif';
+    color:rgb(216, 113, 22);
+    font-size:18px;
+    padding-left: 40px;
+}
