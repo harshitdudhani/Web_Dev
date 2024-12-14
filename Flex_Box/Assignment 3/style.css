@@ -13,9 +13,9 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  flex: auto;
+  align-items: center;
+  gap: 8px;
   justify-content: space-between;
-  padding: 8px;
 }
 
 .profile-image {
@@ -24,9 +24,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
 }
 
 .logo {
@@ -34,6 +31,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin:8px;
 }
 
 button {
@@ -42,25 +40,30 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  display: flex;
-  margin: 14px;
 }
 
 a {
   text-decoration: none;
   color: rebeccapurple;
-  display: flex;
-  flex: auto;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  flex:auto;
+  gap:16px;
+  margin:0px;
+  padding:0px;
+}
+.one{
+  display:flex;
+  align-items: center;
   gap:16px;
 }
-.left,.right{
-    display:flex;
-    align-items: center;
-    gap:16px;
+.two{
+  display: flex;
+  align-items: center;
+  gap:16px;
+}
+.notifications{
+  margin:10px;
 }
