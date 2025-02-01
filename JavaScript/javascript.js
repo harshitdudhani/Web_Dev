@@ -1,4 +1,4 @@
-function FavouriteAnimal(animal) {
-    return animal+" is my favourite animal!"
-}
-console.log(FavouriteAnimal("Goat"))
+btn.addEventListener("click", function (e) {
+    console.log(e.target);
+  });
+  
