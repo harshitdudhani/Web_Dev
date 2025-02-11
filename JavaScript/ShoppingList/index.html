@@ -36,6 +36,20 @@
         const button = document.querySelector('button');
         button.addEventListener('click', () => {
             const text = input.value;
+            input.value='';
+            const listItem=document.createElement('li');
+            const listText=document.createElement('span');
+            const listBin=document.createElement('button');
+            listItem.appendChild(listText);
+            listItem.textContent=text;
+            listItem.appendChild(listBin);
+            listBin.textContent='❌';
+            listBin.addEventListener('click', () => {
+                list.removeChild(listItem);
+            })
+            list.appendChild(listItem);
+            input.focus();
+            
         })
     </script>
   </body>
